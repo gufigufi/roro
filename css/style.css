@@ -5672,7 +5672,6 @@ padding: 0;}
     display: inline-block;
     padding: 3px 0 4px 28px;
     font-size: 15px;
-    font-weight: bold;
 }
 .zadanie .nav{
     border-top: 1px solid #f6f8e2;
@@ -5965,6 +5964,9 @@ padding: 0;}
     width: 90px;
     text-align: center;
 }
+.specialists .specialist .avatars p{
+    color: #868863;
+}
 .specialists .specialist .avatars img{
     border-radius: 20px;
 }
@@ -6027,6 +6029,9 @@ padding: 0;}
     width: 375px;
     margin: 15px 0;
 }
+.specialists .specialist .selected{
+    display: inline-block;
+}
 .specialists .specialist .price_block{
     float: left;
     margin: 70px 0 0 20px;
@@ -6046,6 +6051,25 @@ padding: 0;}
 .specialists .specialist .price_block p span{
     font-size: 17px;
     font-weight: bold;
+}
+.specialists .specialist .operations{
+    display: inline-block;
+    margin-left: 13%;
+    width: 87%;
+}
+.specialists .specialist .operations p.selected{
+    margin-right: 10px;
+}
+.specialists .specialist .operations a{
+    color: #1cafba;
+    margin-right: 10px;
+}
+.specialists .specialist .operations a.favorites{
+    float: right;
+    background: url("../images/fav.png") no-repeat;
+    display: inline-block;
+    padding: 0px 0 0px 22px;
+    background-size: 19px;
 }
 /* -------------------------------- */
 /* -------------------------------------------------------------- */
