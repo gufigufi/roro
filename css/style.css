@@ -5652,6 +5652,9 @@ padding: 0;}
     background: #fff;
     padding: 30px;
 }
+#zadaniya .zadanie{
+    margin-bottom: 20px;
+}
 .zadanie h3{
     color: #39424f;
     font-weight: bold;
@@ -5664,9 +5667,11 @@ padding: 0;}
     font-size: 21px;
     text-transform: uppercase;
     display: inline-block;
-
 }
-.zadanie header a{
+.zadanie header h3 a{
+    color: #39424f;
+}
+.zadanie header a.favorites{
     float: right;
     background: url("../images/fav.png") no-repeat;
     display: inline-block;
@@ -5683,6 +5688,11 @@ padding: 0;}
     display: inline;
     color: #b1b390;
     padding-left: 19px;
+}
+.zadanie .nav p.price{
+    float: right;
+    font-size: 17px;
+    text-transform: uppercase;
 }
 .zadanie .nav .mesto{
     background: url("../images/ico2.png") no-repeat;
@@ -5710,24 +5720,29 @@ padding: 0;}
     width: 120px;
     text-align: right;
     float: right;
-    margin-top: -57px;
+    margin-top: -55px;
+}
+#zadaniya .zadanie .marker {
+    margin-top: -137px;
 }
 .zadanie .marker .srochnost,
-.zadanie .marker .price{
+.zadanie .marker .price,
+#zadaniya .zadanie .marker .disabled_btn{
     position: relative;
     background: #da251c;
     display: inline-block;
-    text-transform: uppercase;
     color: #fff;
     font-weight: bold;
     padding: 7px 11px 8px;
     font-size: 16px;
     border-radius: 0px 5px 5px 0px;
     margin-bottom: 3px;
+    text-transform: uppercase;
 
 }
 .zadanie .marker .srochnost:after,
-.zadanie .marker .price:after{
+.zadanie .marker .price:after,
+#zadaniya .zadanie .marker .disabled_btn:after{
     right: 100%;
     top: 50%;
     border: solid transparent;
@@ -5749,6 +5764,13 @@ padding: 0;}
     border-color: rgba(28, 175, 186, 0);
     border-right-color: #1cafba;
 }
+#zadaniya .zadanie .marker .disabled_btn{
+    background: #d3d3cb;
+}
+#zadaniya .zadanie .marker .disabled_btn:after{
+    border-color: rgba(28, 175, 186, 0);
+    border-right-color: #d3d3cb;
+}
 .zadanie .content{
     margin-top: 10px;
 }
@@ -5757,6 +5779,12 @@ padding: 0;}
     padding: 0;
     font-size: 14px;
     color: #5b626b;
+}
+#zadaniya .zadanie .content>p{
+    margin-bottom: 15px;
+}
+.zadanie .content>p a.podrobie{
+    margin-left: 5px;
 }
 .zadanie .info:before{
     content: ".";
@@ -5785,17 +5813,17 @@ padding: 0;}
     display: inline-block;
     margin: 15px 0;
 }
-.zadanie footer{
+.zadanie>footer{
     border-top: 1px solid #f6f8e2;
     padding-top: 20px;
     margin-top: 20px;
 }
-.zadanie footer h3{
+.zadanie>footer h3{
     opacity: 0.8;
     display: inline-block;
     margin: 10px 0 0 0;
 }
-.zadanie footer a{
+.zadanie>footer a.btn{
     border: 3px solid;
     border-radius: 1px;
     color: #5c626b;
@@ -5811,7 +5839,7 @@ padding: 0;}
     transition: all 0.2s ease 0s;
     float: right;
 }
-.zadanie footer a:hover{
+.zadanie>footer a.btn:hover{
     background: rgba(0, 0, 0, 0.20);
 }
 .box_r .customer{
@@ -6073,6 +6101,234 @@ padding: 0;}
 }
 /* -------------------------------- */
 /* -------------------------------------------------------------- */
+
+/* ------------------------------------------------------zadaniya */
+#zadaniya nav.nav{
+    margin-bottom: 30px;
+}
+#zadaniya nav.nav a{
+    border: 3px solid;
+    border-radius: 1px;
+    color: #5c626b;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 0.8;
+    outline: medium none;
+    padding: 11px 35px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    clear: both;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#zadaniya nav.nav a:first-child{
+    margin-left: 0;
+}
+#zadaniya nav.nav a:hover{
+    background: rgba(0, 0, 0, 0.20);
+}
+#zadaniya nav.nav a.activ{
+    background: #1cafba;
+    color: #fff;
+    border: 0;
+    padding: 14px 35px;
+}
+#zadaniya .zadanie .nav{
+    padding: 15px 0;
+
+}
+#zadaniya .zadanie .nav .favorites{
+    float: right;
+    background: url("../images/fav.png") no-repeat;
+    display: inline-block;
+    padding: 3px 0 4px 28px;
+    font-size: 15px;
+}
+#zadaniya .zadanie .nav .mesto{
+    background-size: 15px;
+    padding: 0px 4px 5px 23px;
+    margin-left: 9px;
+}
+#zadaniya .zadanie .nav .klass{
+    background-size: 15px;
+    padding: 0px 4px 5px 23px;
+}
+#zadaniya .zadanie>footer{
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 5px;
+}
+#zadaniya .zadanie>footer .right{
+    float: right;
+}
+#zadaniya .zadanie>footer p{
+    display: inline;
+    margin-left: 10px;
+    color: #b1b390;
+}
+#zadaniya .zadanie>footer p:first-child{
+    margin-left: 0;
+}
+#zadaniya .zadanie>footer p.creation{
+    background: url("../images/ico_s1.png") no-repeat;
+    background-size: 15px;
+    padding: 0px 4px 5px 23px;
+}
+#zadaniya .zadanie>footer p.number_zayavka{
+    background: url("../images/ico_s2.png") no-repeat;
+    background-size: 15px;
+    padding: 0px 4px 5px 23px;
+}
+#zadaniya .zadanie>footer p.count_prosmotr{
+    background: url("../images/ico_s3.png") no-repeat;
+    background-size: 15px;
+    padding: 0px 4px 5px 23px;
+}
+#zadaniya .zadanie>footer p.count_zayavok{
+    background: url("../images/ico_s4.png") no-repeat;
+    background-size: 15px;
+    padding: 0px 4px 5px 23px;
+}
+#zadaniya .zadanie .marker .price_vacha{
+    position: relative;
+    background: #ffffff;
+    border: 4px solid #1cafba;
+    padding: 3px 11px 4px;
+    border-left: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #1cafba;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+}
+#zadaniya .zadanie .marker .price_vacha:after,
+#zadaniya .zadanie .marker .price_vacha:before{
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+#zadaniya .zadanie .marker .price_vacha:after{
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #ffffff;
+    border-width: 13px;
+    margin-top: -13px;
+}
+#zadaniya .zadanie .marker .price_vacha:before{
+    border-color: rgba(28, 175, 186, 0);
+    border-right-color: #1cafba;
+    border-width: 17px;
+    margin-top: -17px;
+}
+#zadaniya .zadanie.disabled{
+    opacity: 0.7;
+}
+/* ------------------.custom-select */
+.filter{
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #eff1ce 2px;
+}
+.filter .custom-select{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.filter .custom-select select{
+    width: 245px;
+    border: 0;
+    outline: 0;
+    background: url(../images/arr_d.png) 200px center no-repeat #fff;
+    padding: 10px;
+    color: #464646;
+}
+/* -------------------------------- */
+/* ------------------.perekluchatel */
+.filter .perekluchatel{
+    background: #dadcb2;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.filter form .perekluchatel:last-child{
+    margin-bottom: 0;
+}
+.filter .perekluchatel a{
+    color: #abad8a;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding: 7px 20px;
+    display: inline-block;
+}
+.filter .perekluchatel a:hover{
+    text-decoration: underline;
+}
+.filter .perekluchatel a.activ{
+    background: #1aabb7;
+    color: #fff;
+}
+.filter .perekluchatel a:first-child{
+    float: left;
+}
+.filter .perekluchatel a:last-child{
+    float: right;
+}
+/* -------------------------------- */
+/* ---------------------.pagination */
+.pagination{
+    width: 100%;
+    text-align: center;
+}
+.pagination ul {
+    padding: 0;
+}
+.pagination ul li{
+    display: inline-block;
+}
+.pagination ul li a{
+    color: #1cafba;
+    font-weight: bold;
+}
+.pagination ul li a.activ,
+.pagination ul li a:hover{
+    background: #1aabb7;
+    color: #fff;
+    text-decoration: none;
+}
+.pagination ul li.first a:hover,
+.pagination ul li.last a:hover{
+    background: none;
+    color: #1aabb7;
+}
+.pagination ul li:not(.first) a,
+.pagination ul li:not(.last) a{
+    padding: 9px 7px;
+}
+.pagination ul li.first{
+    float: left;
+    background: url(../images/left.png) no-repeat;
+}
+.pagination ul li.first a{
+    padding-left: 30px;
+}
+.pagination ul li.last{
+    float: right;
+    background: url(../images/right.png) right no-repeat;   
+}
+.pagination ul li.last a{
+    padding-right: 30px;
+}
+/* -------------------------------- */
+/* -------------------------------------------------------------- */
+
 #forum_b .box_l {
     overflow: hidden;
     float: left;
