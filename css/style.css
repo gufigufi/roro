@@ -2071,6 +2071,7 @@ float:left;
     margin: 0 auto;
     padding: 50px 0px;
     height:150px;
+    clear:both;
 }
 #stats_b h2 {
         color: #000;
@@ -2230,10 +2231,18 @@ a.spec2:active { background: #000; }
     background: #f6f8e2; 
 }
 #forum_b,
-#zadanie_wrap {
+#wrap {
     width: 1080px;
     margin: 0 auto;
     padding: 0;
+}
+#forum_b .box_l {
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    height: 100%;
+    width: 796px;
+    margin-right: 18px;
 }
 #forum_b h2 {
         color: #000;
@@ -5641,7 +5650,7 @@ padding: 0;}
     margin: 30px 0 10px;
 }
 /* -------------------------------------------------------zadanie */
-#zadanie_wrap .box_l{
+#wrap .box_l{
     overflow: hidden;
     float: left;
     width: 765px;
@@ -5694,7 +5703,8 @@ padding: 0;}
     font-size: 17px;
     text-transform: uppercase;
 }
-.zadanie .nav .mesto{
+.zadanie .nav .mesto,
+.specialist .mesto{
     background: url("../images/ico2.png") no-repeat;
     background-size: 12px;
     padding: 0 4px 0 18px;
@@ -5862,7 +5872,7 @@ padding: 0;}
     margin-bottom: 5px;
 }
 .box_r .customer .info p,
-.specialists .specialist p{
+.specialists .specialist p:not(.comment .maximum .proverka){
     padding: 0;
 }
 .box_r .customer .info p.recall a:first-child,
@@ -5979,26 +5989,26 @@ padding: 0;}
 .specialists .predlogenie a:hover{
     background: rgba(0, 0, 0, 0.20);
 }
-.specialists .specialist{
+.specialist{
     background: #fff;
     padding: 15px;
     margin-top: 10px;
 }
-.specialists .specialist.activ{
+.specialist.activ{
     border: 4px solid #1cafba;
 }
-.specialists .specialist .avatars{
+.specialist .avatars{
     float: left;
     width: 90px;
     text-align: center;
 }
-.specialists .specialist .avatars p{
+.specialist .avatars p{
     color: #868863;
 }
-.specialists .specialist .avatars img{
+.specialist .avatars img{
     border-radius: 20px;
 }
-.specialists .specialist .avatars .status{
+.specialist .avatars .status{
     background: none repeat scroll 0 0 #99cc00;
     border-radius: 100%;
     height: 9px;
@@ -6006,14 +6016,14 @@ padding: 0;}
     position: absolute;
     margin: 0px 0 0 -85px;
 }
-.specialists .specialist .info{
+.specialist .info{
     float: left;
 }
-.specialists .specialist .info header{
+.specialist .info header{
     margin-bottom: 10px;
 }
-.specialists .specialist .info .maximum,
-.specialists .specialist .info .proverka{
+.specialist .info .maximum,
+.specialist .info .proverka{
     background-color: #bf3952;
     border-radius: 3px;
     color: #fff;
@@ -6025,10 +6035,10 @@ padding: 0;}
     margin-right: 8px;
     font-weight: bold;
 }
-.specialists .specialist .info .proverka{
+.specialist .info .proverka{
     background: #b7dee1;
 }
-.specialists .specialist .info h2{
+.specialist .info h2{
     font-size: 13px;
     text-transform: uppercase;
     font-weight: bold;
@@ -6036,19 +6046,20 @@ padding: 0;}
     margin: 2px;
     color: #39424f;
 }
-.specialists .specialist .date{
+.specialist .date{
     display: inline-block;
     float: none;
     padding: 0;
 }
-.specialists .specialist .recall{
+.specialist .recall,
+.specialist .year{
     display: inline-block;
 }
-.specialists .specialist .recall+p{
+.specialist .recall+p{
     display: inline-block;
     margin-left: 10px;
 }
-.specialists .specialist .comment{
+.specialist .comment{
     background: #f6f8e2;
     padding: 10px 20px;
     border-radius: 20px;
@@ -6057,42 +6068,42 @@ padding: 0;}
     width: 375px;
     margin: 15px 0;
 }
-.specialists .specialist .selected{
+.specialist .selected{
     display: inline-block;
 }
-.specialists .specialist .price_block{
+.specialist .price_block{
     float: left;
     margin: 70px 0 0 20px;
 }
-.specialists .specialist .price_block p{
+.specialist .price_block p{
     display: inline-block;
     padding: 0 0 0px 20px;
 }
-.specialists .specialist .price_block p.srok{
+.specialist .price_block p.srok{
     width: 80px;
     background: url("../images/clock.png") 0px 20px no-repeat;
 }
-.specialists .specialist .price_block p.price{
+.specialist .price_block p.price{
     width: 60px;
     background: url("../images/dolor.png") 0px 20px no-repeat;
 }
-.specialists .specialist .price_block p span{
+.specialist .price_block p span{
     font-size: 17px;
     font-weight: bold;
 }
-.specialists .specialist .operations{
+.specialist .operations{
     display: inline-block;
     margin-left: 13%;
     width: 87%;
 }
-.specialists .specialist .operations p.selected{
+.specialist .operations p.selected{
     margin-right: 10px;
 }
-.specialists .specialist .operations a{
+.specialist .operations a{
     color: #1cafba;
     margin-right: 10px;
 }
-.specialists .specialist .operations a.favorites{
+.specialist .operations a.favorites{
     float: right;
     background: url("../images/fav.png") no-repeat;
     display: inline-block;
@@ -6163,6 +6174,9 @@ padding: 0;}
 }
 #zadaniya .zadanie>footer .right{
     float: right;
+}
+#zadaniya .zadanie>footer .left{
+    float: left;
 }
 #zadaniya .zadanie>footer p{
     display: inline;
@@ -6329,11 +6343,306 @@ padding: 0;}
 /* -------------------------------- */
 /* -------------------------------------------------------------- */
 
-#forum_b .box_l {
-    overflow: hidden;
-    float: left;
-    text-align: center;
-    height: 100%;
-    width: 796px;
-    margin-right: 18px;
+/* ---------------------------------------------------#specialist */
+#specialist .specialist {
+    padding: 20px;
+    margin-bottom: 20px;
 }
+#specialist .specialist .info{
+    width: 77%;
+}
+#specialist .specialist .mesto{
+    text-decoration: none;
+    color: #5b626b;
+}
+#specialist .specialist .mesto:hover{
+    text-decoration: underline;
+}
+#specialist .specialist .comment{
+    margin-top: 0;
+    padding: 20px;
+    width: 92%;
+}
+#specialist .specialist .comment span{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#specialist .specialist .mesto{
+    margin-left: 10px;
+}
+#specialist .specialist .avatars{
+    width: 150px;
+    margin-right: 10px;
+}
+#specialist .specialist .avatars img:not(.star) {
+    width: 140px;
+}
+#specialist .specialist .avatars .status{
+    margin: 0px 0 0 -150px;
+}
+#specialist .specialist .avatars img.star {
+    float: left;
+}
+#specialist .specialist .info h2{
+    font-size: 18px;
+}
+.specialist header .status {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0;
+    vertical-align: top;
+}
+.specialist header .status.zanat{
+    color: #da251c;
+}
+.info_specialist {
+    background: #fff;
+    padding: 20px;
+}
+.info_specialist>header{
+    margin-bottom: 20px;
+}
+.info_specialist header a{
+    border: 3px solid;
+    border-radius: 1px;
+    color: #5c626b;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 0.8;
+    outline: medium none;
+    width: 168px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    margin-left: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.info_specialist header a.activ{
+    background: #1cafba;
+    color: #fff;
+    padding: 13px 0;
+}
+.info_specialist header a:first-child{
+    margin-left: 0;
+}
+.info_specialist header a:hover{
+    background: rgba(0, 0, 0, 0.20);
+}
+.info_specialist .variant{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+.info_specialist .variant a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #39424f;
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1px dotted #39424f;
+}
+.info_specialist .variant a:first-child{
+    margin-left: 0;
+}
+.info_specialist .variant a.activ{
+    color: #fff;
+    background: #1cafba;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 0;
+}
+/* -------------------------comment */
+.comments{
+    margin-top: 20px;
+}
+.info_specialist .comment {
+    margin-top: 12px;
+}
+.info_specialist .comment:first-child {
+    margin-top: 0;
+}
+.comments .comment .avatars{
+    width: 90px;
+    text-align: center;
+    float: left;
+}
+.comments .comment .avatars img{
+    border-radius: 20px;
+}
+.comments .comment .avatars .status{
+    background: none repeat scroll 0 0 #99cc00;
+    border-radius: 100%;
+    height: 9px;
+    width: 9px;
+    position: absolute;
+    margin: 0px 0 0 -82px;
+}
+.comments .comment .info {
+    float: left;
+}
+.comments .comment .info h2{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    margin: 2px;
+    color: #39424f;
+} 
+.comments .comment .info .date{
+    display: inline-block;
+    float: none;
+    padding: 0;
+    font-size: 13px;
+}
+.info_specialist .zadanie{
+    padding: 0;
+}
+.info_specialist .comment .comment{
+    background: #F9FBF0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #39424f;
+    width: 375px;
+    margin: 10px 0;
+}
+.info_specialist .comment .recall{
+    display: block;
+    clear: both;
+    margin-left: 92px;
+    color: #1cafba;
+    font-size: 15px;
+}
+.info_specialist .comment .info{
+    width: 87%;
+}
+.info_specialist .comment .info .comment{
+    width: 93%;
+}
+.comment .otvet{
+    clear: both;
+    margin-left: 90px;
+    padding-top: 10px;
+}
+.comment .otvet .avatars{
+    float: right;
+}
+.comment .otvet .info{
+    float: right;
+    width: 83%;
+    margin-right: 10px;
+}
+.comment .otvet .info .comment{
+    width: 93%;
+    background: #EEF1C3;
+}
+.comment .otvet .info header h2{
+    margin-left: 20px;
+}
+/* -------------------------------- */
+/* -------------------.contact_info */
+.contact_info{
+    background: #eff1c2;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.contact_info header{
+    border-bottom: 1px solid  #dfe1b0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.contact_info header a,
+.contact_info .info a{
+    border: 3px solid;
+    border-radius: 1px;
+    color: #5c626b;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 0.8;
+    outline: medium none;
+    width: 220px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    padding: 10px 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact_info .info p{
+    text-align: left;
+    color: #7c7e63;
+}
+.contact_info .info p span{
+    display: inline-block;
+    float: right;
+    width: 95px;
+    color: #5b5d46;
+    font-weight: bold;
+}
+.contact_info .info a{
+    font-size: 11px;
+    margin-top: 10px;
+}
+.contact_info .contacts{
+    background: #DFE2B4;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+.contact_info .contacts h4,
+.contact_info .specialization h4{
+    text-transform: uppercase;
+    color: #39424f;
+    font-weight: bold;
+}
+.contact_info .contacts h4 span{
+    display: inline-block;
+    width: 14px;
+    height: 8px;
+    background: url(../images/arrow_top.png) no-repeat;
+    float: right;
+}
+.contact_info .contacts p{
+    padding-left: 30px;
+
+}
+.contact_info .contacts .phone{
+    background: url(../images/phone.png) no-repeat;
+}
+.contact_info .contacts .email{
+    background: url(../images/email.png) no-repeat;
+}
+.contact_info .contacts .skype{
+    background: url(../images/skype.png) no-repeat;
+}
+.contact_info .contacts .phone a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #1cafba;
+}
+.contact_info .contacts .phone a:hover{
+    text-decoration: underline;
+}
+.contact_info .specialization {
+    text-align: left;
+}
+.contact_info .specialization a{
+    display: block;
+    color: #1cafba;
+    text-decoration: none;
+}
+.contact_info .specialization a:hover{
+    text-decoration: underline;
+}
+/* -------------------------------- */
+/* -------------------------------------------------------------- */
