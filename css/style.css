@@ -6646,3 +6646,115 @@ padding: 0;}
 }
 /* -------------------------------- */
 /* -------------------------------------------------------------- */
+/* --------------------------------------------------#specialists */
+#specialists .specialist.activ{
+    border: 6px solid #bfe2e4;
+}
+#specialists .specialist .info{
+    width: 87%;
+}
+#specialists .specialist .info h2{
+    text-decoration: underline;
+    font-size: 19px;
+    letter-spacing: 1.8px;
+}
+#specialists .specialist .info .mesto{
+    color: #1cafba;
+    text-decoration: none;
+}
+#specialists .specialist .info .mesto:hover{
+    text-decoration: underline;
+}
+#specialists .specialist .info .servis{
+    color: #ced0b8;
+    padding: 0;
+    margin-top: 10px;
+}
+#specialists .specialist .info .last_online{
+    color: #ced0b8;
+}
+.specialist .reviews_jobs{
+    float: right;
+    margin-top: -50px;
+}
+.specialist .reviews_jobs div{
+    background: #f6f8e2;
+    width: 124px;
+    display: inline-block;
+    padding: 10px;
+}
+.specialist .reviews_jobs p{
+    color: #a1a1a1;
+    display: inline-block;
+    padding: 0;
+}
+.specialist .reviews_jobs p:not(.number) {
+    width: 85px;
+    line-height: 1;
+    margin-left: 5px;
+}
+.specialist .reviews_jobs p.number{
+    color: #c4c7a1;
+    font-size: 28px;
+    font-weight: bold;
+}
+.specialist .services_price{
+    clear: both;
+    margin-left: 90px;
+    border-top: 1px solid  #f6f8e2;
+    border-bottom: 1px solid  #f6f8e2;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+.specialist .services_price p{
+    color: #363636;
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.specialist .services_price .not_price{
+    color: #cfd1b8;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+}
+.specialist .services_price .all_services{
+    border-top: 1px solid  #f6f8e2;
+    padding-top: 10px;
+}
+.specialist .services_price .all_services a{
+    color: #1cafba;
+}
+.specialist .services_price .all_services .count{
+    background: none repeat scroll 0 0 #1cafba;
+    border-radius: 100%;
+    width: 16px;
+    position: absolute;
+    color: #fff;
+    font-size: 9px;
+    height: 16px;
+    text-align: center;
+    margin: -6px 0 0 5px;
+}
+.specialist .services_price p span:not(.count){
+    display: inline-block;
+    float: right;
+    width: 180px;
+    color: #5b5d46;
+    font-weight: bold;
+    text-align: right;
+}
+#specialists .specialist footer{
+    margin-left: 90px;
+} 
+#specialists .specialist footer a{
+    color: #1cafba;
+}
+#specialists .specialist footer a.favorites{
+    float: right;
+    background: url("../images/fav.png") no-repeat;
+    display: inline-block;
+    padding: 3px 0 4px 28px;
+    font-size: 15px;
+}
+/* -------------------------------------------------------------- */
