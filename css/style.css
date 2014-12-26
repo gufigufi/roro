@@ -6774,12 +6774,10 @@ nav.nav a.activ{
 #lk_zakazchik .zadanie>footer .right{
     margin: 7px 0;
 }
-#lk_zakazchik nav.nav a,
-#Lk_selected_specialist nav.nav a{
+nav.nav.nav_lk a{
     padding: 11px 27px;   
 }
-#lk_zakazchik nav.nav a.activ,
-#Lk_selected_specialist nav.nav a.activ{
+nav.nav.nav_lk a.activ{
     padding: 14px 15px 14px 39px;
     background: url(../images/plus.png) 13px 11px no-repeat #bf3952;
 
@@ -7049,5 +7047,100 @@ nav.nav .custom-select select{
 .specialist .info .select p a:first-child{
     color: #9c0;
     padding: 0 5px 0 0;
+}
+/* -------------------------------------------------------------- */
+/* --------------------------------------------------.lk_messages */
+.lk_messages{
+    background: #fff;
+    padding: 20px;
+}
+.lk_messages .lk_message{
+    padding: 0 0 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #f6f8e2;
+}
+.lk_messages .lk_message .avatars{
+    float: left;
+    text-align: center;
+    width: 90px;
+    margin: 0 10px 10px 0;
+}
+.lk_messages .lk_message .avatars img{
+    border-radius: 20px;
+}
+.lk_messages .lk_message .avatars .status{
+    background: none repeat scroll 0 0 #99cc00;
+    border-radius: 100%;
+    height: 9px;
+    width: 9px;
+    position: absolute;
+    margin: 0px 0 0 -82px;
+}
+.lk_messages .lk_message .info{
+    float: left;
+    width: 85%;
+}
+.lk_messages .lk_message .info h2{
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0 0 10px;
+}
+.lk_messages .lk_message .info p>a{
+    color: #1cafba;
+    text-decoration: none;
+}
+.lk_messages .lk_message .info p>a:hover{
+    text-decoration: underline;
+}
+.lk_messages .lk_message .info .message{
+    float: right;
+    margin-top: -60px;
+    text-align: right;
+    color: #c2c2c2;
+}
+.lk_messages .lk_message .info .message a.new{
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    margin-right: 19px;
+    padding: 5px 10px;
+    font-weight: bold;
+    background: #1cafba;
+}
+.lk_messages .lk_message .info .message a.email{
+    display: inline-block;
+    color: #dcdeb9;
+    font-weight: bold;
+    text-decoration: none;
+    background: url(../images/email-transparent.png) no-repeat;
+    padding: 3px 0;
+    width: 70px;
+    font-size: 16px;
+}
+.lk_messages .lk_message .info .message a.email:hover{
+    text-decoration: underline;
+}
+.lk_messages .lk_message .info .message p{
+    margin-top: 5px;
+}
+.lk_messages .lk_message .zametka{
+    clear: both;
+    margin-left: 10px;
+    background: #f6f8e2;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.lk_messages .lk_message .zametka a{
+    text-decoration: none;
+    color: #1cafba;
+}
+.lk_messages .lk_message .zametka a:hover{
+    text-decoration: underline;
 }
 /* -------------------------------------------------------------- */
