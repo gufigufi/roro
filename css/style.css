@@ -6123,7 +6123,9 @@ padding: 0;}
 
 /* ------------------------------------------------------zadaniya */
 nav.nav{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaedd1;
 }
 nav.nav a{
     border: 3px solid;
@@ -6772,10 +6774,12 @@ nav.nav a.activ{
 #lk_zakazchik .zadanie>footer .right{
     margin: 7px 0;
 }
-#lk_zakazchik nav.nav a{
+#lk_zakazchik nav.nav a,
+#Lk_selected_specialist nav.nav a{
     padding: 11px 27px;   
 }
-#lk_zakazchik nav.nav a.activ{
+#lk_zakazchik nav.nav a.activ,
+#Lk_selected_specialist nav.nav a.activ{
     padding: 14px 15px 14px 39px;
     background: url(../images/plus.png) 13px 11px no-repeat #bf3952;
 
@@ -6975,5 +6979,75 @@ nav.nav .custom-select select{
 .filling_profile .info p.achieved{
     color: #99cc00;
     background: url(../images/check.png) right -21px no-repeat;
+}
+/* -------------------------------------------------------------- */
+
+/* -------------------------------------------elected_specialists */
+.selected_specialists{
+    background: #fff;
+    padding: 20px;
+}
+.selected_specialists>h2{
+    color: #39424f;
+    text-transform: uppercase;
+}
+.selected_specialists .specialist{
+    padding: 0 0 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid  #f6f8e2;
+}
+.selected_specialists .specialist .avatars {
+    width: 100px;
+    margin-right: 5px;
+}
+.selected_specialists .specialist .avatars img{
+    width: 90px;
+}
+.selected_specialists .specialist .avatars .status{
+    margin: 0px 0 0 -95px;
+}
+.selected_specialists .specialist .info{
+    width: 85%;
+}
+.selected_specialists .specialist .info h2{
+    font-size: 14px;
+}
+.selected_specialists .specialist .info a{
+    color: #1cafba;
+}
+.selected_specialists .specialist .info a.zametka{
+    background: url(../images/zametka.png) 0 2px no-repeat;
+    padding: 0px 0 0px 25px;
+    display: inline-block;
+}
+.specialist .info .select{
+    float: right;
+    margin-top: -60px;
+    text-align: right;
+}
+.specialist .info .select span.star{
+    display: inline-block;
+    background: url(../images/star.png) 0 -32px no-repeat;
+    width: 32px;
+    height: 32px;
+}
+.specialist .info .select span.star.activ,
+.specialist .info .select span.star:hover{
+    background-position: 0 0;
+}
+.specialist .info .select p{
+    padding: 0;
+    color: #39424f;
+}
+.specialist .info .select p:last-child{
+    color: #d7d7d7;
+}
+.specialist .info .select p a{
+    color: #f44;
+    padding-left: 5px;
+}
+.specialist .info .select p a:first-child{
+    color: #9c0;
+    padding: 0 5px 0 0;
 }
 /* -------------------------------------------------------------- */
