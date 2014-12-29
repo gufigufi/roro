@@ -7308,10 +7308,12 @@ nav.nav.nav_lk+h2{
 .lk_settings .setting form a.btn:last-child{
     margin-top: 10px;   
 }
-.lk_settings .setting input[type="checkbox"] {
+.lk_settings .setting input[type="checkbox"],
+.create_zadanie form input[type="checkbox"]{
     display:none;
 }
-.lk_settings .setting input[type="checkbox"] + label {
+.lk_settings .setting input[type="checkbox"] + label,
+.create_zadanie form input[type="checkbox"] + label{
     display:block;
     vertical-align:middle;
     background:url(../images/checkbox.png) 0 -14px no-repeat;
@@ -7322,7 +7324,212 @@ nav.nav.nav_lk+h2{
     color: #39424f;
     font-size: 14px
 }
-.lk_settings .setting input[type="checkbox"]:checked + label {
+.lk_settings .setting input[type="checkbox"]:checked + label,
+.create_zadanie form input[type="checkbox"]:checked + label{
     background:url(../images/checkbox.png) 0 3px no-repeat;    
+}
+/* -------------------------------------------------------------- */
+/* -----------------------------------------------.create_zadanie */
+.create_zadanie{
+    background: #EEF1C3;
+    padding: 20px;
+}
+.create_zadanie header{
+    margin-bottom: 10px;
+}
+.create_zadanie header div{
+    display: inline-block;
+    overflow: hidden;
+    width: 350px;
+}
+.create_zadanie div.left,
+.create_zadanie div.right{
+    display: inline-block;
+    overflow: hidden;
+    width: 350px;
+}
+.create_zadanie div.left{
+    margin-right: 20px;
+}
+.create_zadanie header div.left div:nth-child(2),
+.create_zadanie header div.right div:nth-child(2){
+    margin-bottom: 5px;
+}
+.create_zadanie label{
+    display: block;
+    color: #464646;
+    margin-bottom: 5px;
+}
+.create_zadanie header select{
+    width: 370px;
+    border: 0;
+    outline: 0;
+    background: url(../images/arr_d.png) 320px center no-repeat #fff;
+    padding: 10px;
+    color: #464646;
+    border-radius: 3px;
+}
+.create_zadanie header a{
+    color: #1cafba;
+    background: url(../images/plus_blue.png) 0 2px no-repeat;
+    padding-left: 15px;
+}
+.create_zadanie header a span{
+    font-size: 15px;
+    text-decoration: none;
+}
+.create_zadanie form>input[type=text],
+.create_zadanie form>textarea{
+    width: 705px;
+    border: 0;
+    outline: 0;
+    color: #464646;
+    padding: 10px;
+}
+.create_zadanie form>input[type=text]{
+    margin-bottom: 10px;
+}
+.create_zadanie form>textarea{
+    height: 80px;
+    margin-bottom: 15px;
+}
+.create_zadanie .budget{
+    float: right;
+    margin-top: -45px;
+}
+.create_zadanie .budget label{
+    display: inline-block;
+    vertical-align: middle;
+}
+.create_zadanie .budget input{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    width: 230px;
+    margin-left: 15px;
+}
+.create_zadanie form>input[type="checkbox"] + label{
+    width: 150px;
+}
+.create_zadanie .date_block{
+    margin: 20px 0 15px;
+    padding: 15px 0;
+    border-top: 1px solid #e6e8bb;
+    border-bottom: 1px solid #e6e8bb;
+}
+.create_zadanie .date_block div.left input[type=date]{
+    margin-bottom: 10px;
+}
+.create_zadanie .date_block div:not(.quickly)>input[type=date]{
+    width: 330px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+.create_zadanie .date_block div.quickly{
+    margin-top: 32px;
+}
+.create_zadanie .date_block div.quickly label{
+    display: inline-block;
+}
+.create_zadanie .date_block div.quickly input[type=checkbox] + label{
+    margin-right: 25px;
+}
+.create_zadanie .date_block div.quickly input[type=date]{
+    width: 145px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin-left: 5px;
+}
+.create_zadanie .date_block input[type=text]{
+    width: 195px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin-right: 10px;
+}
+.create_zadanie .date_block .custom-select{
+    width:120px;
+    overflow:hidden;
+    vertical-align:middle;
+    display:inline-block;
+}
+.create_zadanie .date_block .custom-select select{
+    width: 135px;
+    border: 0;
+    outline: 0;
+    background: url(../images/arr_d.png) 95px center no-repeat #fff;
+    padding: 10px;
+    color: #464646;
+    border-radius: 3px;
+}
+.create_zadanie .map{
+    border-bottom: 1px solid #e6e8bb;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.create_zadanie .map label{
+    color: #1cafba;
+
+}
+.create_zadanie .map input{
+    width: 705px;
+    border: 0;
+    outline: 0;
+    color: #464646;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.create_zadanie footer div{
+    display: inline-block;
+}
+.create_zadanie footer div.upload{
+    width: 119px;
+    height: 100px;
+    background: url(../images/plus_big.png) center center no-repeat #E5E7BC;
+    border: 1px dashed #fff;
+    margin-left: 15px;
+    background-size: 25px;
+}
+.create_zadanie footer .format_file{
+    width: 135px;
+}
+.create_zadanie footer .format_file h5{
+    color: #575751;
+    margin-bottom: 5px;
+}
+.create_zadanie footer .format_file p{
+    color: #929385;
+    line-height: 1.3;
+
+}
+.create_zadanie footer input{
+    width: 330px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+.create_zadanie input[type=submit]{
+    border: 3px solid;
+    border-radius: 1px;
+    color: #5c626b;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 0.8;
+    outline: medium none;
+    padding: 11px 35px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    clear: both;
+    font-weight: bold;
+    background: rgba(0,0,0,0);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.create_zadanie input[type=submit]:hover{
+    background: rgba(0, 0, 0, 0.20);
 }
 /* -------------------------------------------------------------- */

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f46d112-3f9a-4dcc-a02d-e9c9720a89b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
     </list>
     <ignored path="roro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,10 +32,10 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="118486" max-vertical-offset="129870">
-                  <caret line="6591" column="19" selection-start-line="6591" selection-start-column="19" selection-end-line="6591" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="120610" max-vertical-offset="131994">
+                  <caret line="6709" column="1" selection-start-line="6709" selection-start-column="1" selection-end-line="6709" selection-end-column="1" />
                   <folding>
-                    <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+                    <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="lk_settings.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lk_settings.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5206612" vertical-offset="0" max-vertical-offset="8136">
-                  <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="8586">
+                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -54,7 +54,7 @@
           <file leaf-file-name="zadanie.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/zadanie.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.148149" vertical-offset="3263" max-vertical-offset="11358">
+                <state vertical-scroll-proportion="0.0" vertical-offset="3263" max-vertical-offset="11358">
                   <caret line="195" column="38" selection-start-line="195" selection-start-column="38" selection-end-line="195" selection-end-column="38" />
                   <folding />
                 </state>
@@ -78,7 +78,7 @@
           <file leaf-file-name="lk_zakazchik.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lk_zakazchik.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.740741" vertical-offset="4093" max-vertical-offset="8190">
+                <state vertical-scroll-proportion="0.0" vertical-offset="4093" max-vertical-offset="8190">
                   <caret line="236" column="36" selection-start-line="236" selection-start-column="36" selection-end-line="236" selection-end-column="36" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -90,7 +90,7 @@
           <file leaf-file-name="lk_message.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lk_message.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6075949" vertical-offset="0" max-vertical-offset="8658">
+                <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="8658">
                   <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
                   <folding />
                 </state>
@@ -132,9 +132,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="7" />
-    <option name="y" value="24" />
-    <option name="width" value="930" />
-    <option name="height" value="1056" />
+    <option name="y" value="52" />
+    <option name="width" value="920" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -162,6 +162,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,14 +197,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="fileColors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vizitki" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -268,16 +268,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="24" width="930" height="1056" extended-state="4" />
+    <frame x="7" y="52" width="920" height="1028" extended-state="4" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272311" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29977375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30663615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32725322" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32632744" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32725322" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -351,7 +351,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="117990">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -383,7 +383,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="110810" max-vertical-offset="117072">
           <caret line="6175" column="1" selection-start-line="6175" selection-start-column="1" selection-end-line="6175" selection-end-column="1" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -415,7 +415,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="110810" max-vertical-offset="117072">
           <caret line="6175" column="1" selection-start-line="6175" selection-start-column="1" selection-end-line="6175" selection-end-column="1" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -447,7 +447,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="110792" max-vertical-offset="117054">
           <caret line="6174" column="16" selection-start-line="6174" selection-start-column="16" selection-end-line="6174" selection-end-column="16" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -479,7 +479,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="110108" max-vertical-offset="116388">
           <caret line="6136" column="16" selection-start-line="6136" selection-start-column="16" selection-end-line="6136" selection-end-column="16" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -518,7 +518,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="108470" max-vertical-offset="114750">
           <caret line="6045" column="17" selection-start-line="6045" selection-start-column="17" selection-end-line="6045" selection-end-column="17" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -550,7 +550,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="113020" max-vertical-offset="114192">
           <caret line="6312" column="21" selection-start-line="6312" selection-start-column="21" selection-end-line="6312" selection-end-column="21" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -582,7 +582,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="112320">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -600,7 +600,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="109152">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -618,7 +618,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="109152">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -636,7 +636,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="104760">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -671,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zadanie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.148149" vertical-offset="3263" max-vertical-offset="11358">
-          <caret line="195" column="38" selection-start-line="195" selection-start-column="38" selection-end-line="195" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3363" max-vertical-offset="11358">
+          <caret line="194" column="56" selection-start-line="194" selection-start-column="56" selection-end-line="194" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -681,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2481012" vertical-offset="2117" max-vertical-offset="11664">
           <caret line="145" column="30" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,13 +688,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36455697" vertical-offset="0" max-vertical-offset="8640">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lk_zakazchik.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.740741" vertical-offset="4093" max-vertical-offset="8190">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4093" max-vertical-offset="8190">
           <caret line="236" column="36" selection-start-line="236" selection-start-column="36" selection-end-line="236" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -705,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lk_message.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6075949" vertical-offset="0" max-vertical-offset="8658">
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="8658">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
@@ -713,18 +711,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="118486" max-vertical-offset="129870">
-          <caret line="6591" column="19" selection-start-line="6591" selection-start-column="19" selection-end-line="6591" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="120610" max-vertical-offset="131994">
+          <caret line="6709" column="1" selection-start-line="6709" selection-start-column="1" selection-end-line="6709" selection-end-column="1" />
           <folding>
-            <marker date="1419643893940" expanded="true" signature="125253:125311" placeholder="{...}" />
+            <marker date="1419671941927" expanded="true" signature="125253:125311" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lk_settings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5206612" vertical-offset="0" max-vertical-offset="8136">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="8586">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
