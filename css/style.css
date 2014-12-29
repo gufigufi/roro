@@ -7533,3 +7533,79 @@ nav.nav.nav_lk+h2{
     background: rgba(0, 0, 0, 0.20);
 }
 /* -------------------------------------------------------------- */
+/* -------------------------------------------------#Lk_chernivik */
+.zadanie_wrap{
+    margin-bottom: 10px;
+}
+.nav_chernovik {
+    margin-bottom: 20px;
+}
+.nav_chernovik a{
+    display: inline-block;
+    color: #1cafba;
+    padding: 0px 26px;
+    border-left: 1px solid #d3d6bd;
+    text-decoration: none;
+}
+.nav_chernovik a:hover{
+    text-decoration: underline;
+}
+.nav_chernovik a:first-child{
+    padding-left: 0;
+    border-left: 0;
+}
+.nav_chernovik a.activ{
+    color: #39424f;
+}
+#Lk_chernivik .zadanie .nav{
+    clear: both;
+}
+#Lk_chernivik .zadanie .marker{
+    margin-top: -105px;
+    margin-bottom: 45px;
+
+}
+#Lk_chernivik .zadanie>footer{
+    border-top: 0;
+    margin: 10px 0 20px;
+    padding-top: 0;
+}
+.zadanie_wrap .manegement{
+    background: #EEF1C3;
+}
+.zadanie_wrap .manegement input[type="checkbox"]{
+    display: none;
+}
+.zadanie_wrap .manegement input[type="checkbox"] + label{
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/checkbox2.png) 15px -15px no-repeat;
+    cursor: pointer;
+    padding-left: 20px;
+    height: 16px;
+    color: #b2b489;
+    font-size: 14px;
+    padding: 10px 25px 10px 40px;
+    border-left: 1px solid #dee0b1;
+
+}
+.zadanie_wrap .manegement input[type="checkbox"]:checked + label{
+    background: url(../images/checkbox2.png) 15px 12px no-repeat;
+}
+.zadanie_wrap .manegement input{
+    display: inline-block;
+    background: rgba(0,0,0,0);
+    border: 0;
+    outline: 0;
+    color: #b2b489;
+    vertical-align: middle;
+    padding: 10px 31px;
+    border-left: 1px solid #dee0b1;
+    cursor: pointer;
+    margin-left: -3px;
+}
+.zadanie_wrap .manegement input:first-child{
+    border-left: 0;
+    margin-left: 0;
+}
+/* -------------------------------------------------------------- */
